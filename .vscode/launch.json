@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Lanuch Chrome to debug",
+      "preLaunchTask": "npm: dev-debug",
+      "url": "https://github.com/njzydark/chrome-extension-boilerplate",
+      "webRoot": "${workspaceFolder}",
+      "runtimeArgs": [
+        "--load-extension=${workspaceFolder}/dist"
+      ]
+    }
+  ]
+}

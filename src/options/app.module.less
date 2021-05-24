@@ -1,0 +1,26 @@
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.list {
+  &Item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    &Label {
+      display: flex;
+      // align-items: center;
+      input {
+        margin: 0;
+      }
+    }
+    &Badge {
+      width: 12px;
+      height: 12px;
+      border-radius: 4px;
+      margin-left: 8px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev-debug",
+      "label": "npm: dev-debug",
+      "detail": "cross-env OPEN_DEBUG_PAGES=true NODE_ENV=development webpack serve --config build/webpack.config.dev.ts",
+      "isBackground": true,
+      "problemMatcher": [
+        {
+          "base": "$tsc-watch",
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": ".",
+            "endsPattern": "No issues found"
+          }
+        },
+      ]
+    }
+  ]
+}
