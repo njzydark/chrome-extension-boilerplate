@@ -48,7 +48,7 @@
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
     "babel-loader": "^8.2.2",
-    "chrome-extension-reloader-webpack-plugin": "^1.0.1",
+    "chrome-extension-reloader-webpack-plugin": "^1.0.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "copy-webpack-plugin": "^9.0.1",
     "cross-env": "^7.0.3",

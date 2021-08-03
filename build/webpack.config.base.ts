@@ -138,16 +138,19 @@ const config: Configuration = {
     }),
     new HtmlWebpackPlugin({
       filename: 'popup.html',
-      chunks: ['popup']
+      chunks: ['popup'],
+      title: 'popup page'
     }),
     new HtmlWebpackPlugin({
       filename: 'options.html',
-      chunks: ['options']
+      chunks: ['options'],
+      title: 'options page'
     }),
     chromeMainfestVersion !== 3 &&
       new HtmlWebpackPlugin({
         filename: 'background.html',
-        chunks: ['background']
+        chunks: ['background'],
+        title: 'background page'
       })
   ].filter(Boolean)
 };
