@@ -2,9 +2,6 @@
 
 A chrome extension boilerplate by Webpack5 + TS + React
 
-https://user-images.githubusercontent.com/19601720/127956421-8d6521dd-f6cf-460b-8e5f-750b5acea3a3.mp4
-
-
 ## Features
 
 - Support manifest v2 and v3
@@ -17,6 +14,10 @@ https://user-images.githubusercontent.com/19601720/127956421-8d6521dd-f6cf-460b-
 - Intelligence when you change manifest config (only v2)
 
 > Major features is by [chrome-extension-reloader-webpack-plugin](https://github.com/njzydark/chrome-extension-reloader-webpack-plugin), you can use this plugin to create own your project
+
+## Demo Video
+
+https://user-images.githubusercontent.com/19601720/127956421-8d6521dd-f6cf-460b-8e5f-750b5acea3a3.mp4
 
 ## Usage
 
