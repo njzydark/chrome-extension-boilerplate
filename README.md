@@ -2,6 +2,9 @@
 
 A chrome extension boilerplate by Webpack5 + TS + React
 
+https://user-images.githubusercontent.com/19601720/127956421-8d6521dd-f6cf-460b-8e5f-750b5acea3a3.mp4
+
+
 ## Features
 
 - Support manifest v2 and v3
