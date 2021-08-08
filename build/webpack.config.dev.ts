@@ -1,4 +1,4 @@
-import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
+import { MiniReactRefreshWebpackPlugin } from '@njzy/mini-react-refresh-webpack-plugin';
 import merge from 'webpack-merge';
 
 import baseConfig from './webpack.config.base';
@@ -10,26 +10,27 @@ const config = merge(baseConfig, {
     clientLogLevel: 'silent',
     publicPath: '/',
     historyApiFallback: true,
-    progress: true
+    progress: true,
+    overlay: true
   },
   module: {
-    rules: [
-      {
-        test: /\.(jsx|tsx)$/,
-        exclude: /(node_modules)/,
-        use: [
-          {
-            loader: 'babel-loader',
-            options: {
-              cacheDirectory: true,
-              plugins: [require.resolve('react-refresh/babel')].filter(Boolean)
-            }
-          }
-        ]
-      }
-    ]
+    // rules: [
+    //   {
+    //     test: /\.(jsx|tsx)$/,
+    //     exclude: /(node_modules)/,
+    //     use: [
+    //       {
+    //         loader: 'babel-loader',
+    //         options: {
+    //           cacheDirectory: true,
+    //           plugins: [require.resolve('react-refresh/babel')].filter(Boolean)
+    //         }
+    //       }
+    //     ]
+    //   }
+    // ]
   },
-  plugins: [new ReactRefreshWebpackPlugin()]
+  plugins: [new MiniReactRefreshWebpackPlugin({ entryNames: ['popup', 'options'], exclude: [/\/src\/contents\//] })]
 });
 
 export default config;

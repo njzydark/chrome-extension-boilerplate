@@ -59,3 +59,7 @@ contents/test/a.ts 🚫
 
 contents/test/t/index.ts 🚫
 ```
+
+## React Refresh
+
+This project is using custom plugin [https://github.com/njzydark/mini-react-refresh-webpack-plugin](https://github.com/njzydark/mini-react-refresh-webpack-plugin)
