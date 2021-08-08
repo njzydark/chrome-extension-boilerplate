@@ -13,7 +13,7 @@ export const App = () => {
 
   return (
     <div>
-      <div className={styles.title}>Options Page2</div>
+      <div className={styles.title}>Options Page</div>
       {allColor.map(item => {
         return (
           <div className={styles.listItem} key={item}>
