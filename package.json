@@ -2,7 +2,7 @@
   "name": "chrome-extension-boilerplate",
   "version": "1.0.0",
   "engines": {
-    "node": ">=12"
+    "node": ">=16.1.0"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --config build/webpack.config.dev.ts",
