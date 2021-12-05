@@ -1,6 +1,6 @@
 # chrome-extension-boilerplate
 
-A chrome extension boilerplate by Webpack5 + TS + React
+A chrome extension boilerplate using Yarn3 + Webpack5 + TS + React
 
 ## Features
 
@@ -9,6 +9,7 @@ A chrome extension boilerplate by Webpack5 + TS + React
 - Support react fast refresh
 - Support auto reload when content scripts change
 - Support dynamic generate content scripts
+- Support yarn modern package manager (v3.1.1)
 - Support use vscode to debug content scripts, popup page, options page and background
 - Out of the box Eslint and Prettier configurations
 - Intelligence when you change manifest config (only v2)
@@ -22,14 +23,16 @@ A chrome extension boilerplate by Webpack5 + TS + React
 ## Usage
 
 ```shell
+# yarn globally
+npm i -g yarn
 # install dependencies
-npm i
+yarn
 # development
-npm run dev
+yarn dev
 # build
-npm run build
+yarn build
 # analy build assets
-npm run analy
+yarn analy
 ```
 
 ## Manifest Version
