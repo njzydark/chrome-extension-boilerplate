@@ -7,5 +7,9 @@
       ],
       "url": "https://json.schemastore.org/chrome-manifest.json"
     }
-  ]
+  ],
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "tslint.packageManager": "yarn",
+  "stylelint.packageManager": "yarn"
 }
