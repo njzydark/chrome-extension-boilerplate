@@ -12,7 +12,8 @@
     "tsc": "tsc --noEmit",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --fix --ext .ts,.tsx",
-    "prettier": "prettier --write src"
+    "prettier": "prettier --write src",
+    "preinstall": "npx only-allow pnpm"
   },
   "author": "njzy",
   "license": "MIT",

@@ -22,14 +22,16 @@ https://user-images.githubusercontent.com/19601720/127956421-8d6521dd-f6cf-460b-
 ## Usage
 
 ```bash
+# install pnpm if pnpm is not installed
+npm i -g pnpm
 # install dependcy
-npm i
+pnpm install
 # development
-npm run dev
+pnpm run dev
 # build
-npm run build
+pnpm run build
 # analy build assets
-npm run analy
+pnpm run analy
 ```
 
 ## Manifest Version
